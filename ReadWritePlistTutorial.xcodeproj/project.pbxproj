@@ -13,6 +13,7 @@
 		88226C7B1A7CF2CB002A7E86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88226C7A1A7CF2CB002A7E86 /* Images.xcassets */; };
 		88226C7E1A7CF2CB002A7E86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88226C7C1A7CF2CB002A7E86 /* LaunchScreen.xib */; };
 		88226C8A1A7CF2CB002A7E86 /* ReadWritePlistTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88226C891A7CF2CB002A7E86 /* ReadWritePlistTutorialTests.swift */; };
+		88226C941A7CF41C002A7E86 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88226C931A7CF41C002A7E86 /* GameData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		88226C831A7CF2CB002A7E86 /* ReadWritePlistTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadWritePlistTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88226C881A7CF2CB002A7E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88226C891A7CF2CB002A7E86 /* ReadWritePlistTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWritePlistTutorialTests.swift; sourceTree = "<group>"; };
+		88226C931A7CF41C002A7E86 /* GameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		88226C701A7CF2CB002A7E86 /* ReadWritePlistTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				88226C931A7CF41C002A7E86 /* GameData.plist */,
 				88226C731A7CF2CB002A7E86 /* AppDelegate.swift */,
 				88226C751A7CF2CB002A7E86 /* ViewController.swift */,
 				88226C771A7CF2CB002A7E86 /* Main.storyboard */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88226C941A7CF41C002A7E86 /* GameData.plist in Resources */,
 				88226C791A7CF2CB002A7E86 /* Main.storyboard in Resources */,
 				88226C7E1A7CF2CB002A7E86 /* LaunchScreen.xib in Resources */,
 				88226C7B1A7CF2CB002A7E86 /* Images.xcassets in Resources */,
